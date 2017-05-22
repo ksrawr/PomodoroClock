@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pomodoro Clock</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<script type="text/javascript" src="lib/jquery-3.2.1.js"></script>
+	<script type="text/javascript" src="lib/script.js"></script>
+</head>
+<body>
+<audio id="buzzer" src="audio/attention-seeker.mp3"></audio>
+<div class="background text-center">
+<div class="block">
+  <h1>Pomodoro Clock</h1>
+  <div id="timeDiv">
+    <h2 id="title1">Session Time</h1>
+    <a href="#" class="btn btn-primary" id="minus5Clock">-</a>
+    <h3 id="timeType"></h2>
+    <h3 id="num">5</h2>
+    <a href="#" class="btn btn-primary" id="add5Clock">+</a>
+    <a href="#" class="btn btn-primary" id="reset">Reset</a>
+  </div>
+  <div id="breakDiv">
+    <h2 id="title1">Break Time</h1>
+    <a href="#" class="btn btn-primary" id="minus5Break">-</a>
+    <h3 id="breakNum">5</h2>
+    <a href="#" class="btn btn-primary" id="add5Break">+</a>
+  </div>
+  <a href="#" class="btn btn-primary" id="start">Start</a>
+  </div>
+</div>
+</body>
+</html>

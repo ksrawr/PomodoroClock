@@ -1,0 +1,30 @@
+h3 {
+  display:inline;
+}
+
+.block {
+  position: absolute;
+  top: 30%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: 0 auto;
+}
+
+.background {
+  background-image: url("https://dxns9fwhcgre1.cloudfront.net/assets/tanjo-icons/icon-saved-by-username-black-7167b458bb66e55b72e87a500a297a9280216cedab91ef19db1380f600852d67.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: 0 auto;
+}
+
+#start {
+  margin: 10px;
+}
+
